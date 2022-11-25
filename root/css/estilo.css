@@ -1,0 +1,184 @@
+/* Nota para el que me corrija: Nose como puedo acomodar las "tablas" para la vista de escritorio sin que queden mal para celular, cualquier ayudita viene bien, gracias */
+
+@font-face {
+	font-family:'honey';
+	src: url(../assets/font/milkyhoney.ttf);
+}
+
+/* Grids */
+
+div.top{
+    display:grid;
+	grid-template-areas: 1068px;
+	grid-template-rows: 113px 131px 58px;
+	background: rgba(255, 81, 0, 0)
+}
+
+div.tabla1 {
+	display:grid;
+	grid-template-columns: 51px 85px 90px 96px 63px;
+	margin: 10px;
+    padding: 10px 78px;
+	background-color: rgb(255, 68, 0);
+
+}
+
+div.tabla1 a {
+	font-size: medium;
+	color: rgb(0, 0, 0);
+	background-color: rgb(255, 68, 0);
+	font-family:'honey';
+	font-size: 20px;
+	background: rgba(0, 0, 0, 0);	
+}
+
+div.tabla2 {
+	display:grid;
+	grid-template-columns: 133px 142px 181px 62px;
+    padding: 10px;
+	background: rgb(255, 68, 0);
+}
+
+div.tabla2 a {
+	font-size: medium;
+	color: rgb(0, 0, 0);
+	background-color: rgb(255, 68, 0);
+	font-family:'honey';
+	font-size: 20px;
+	background: rgba(0, 0, 0, 0);	
+}
+
+div.grupoderopa {
+	display: grid;
+	grid-template-rows: 112px 247px 51px 462px;
+}
+
+div.redes {
+	display:grid;
+	grid-template-rows: 109px 64px;
+	padding: 0px 1px;
+}
+
+/* Un poquito de Flex */
+
+iframe .mapa {
+	margin: 10px 30px;
+	display: flex;
+	flex-direction:center;
+}
+
+div.partedelmapa {
+	background: rgba(255, 255, 255, 0);	
+	text-align: center;
+	margin: 20px;
+	padding: 15px 21px;
+	font-family:'honey';
+    display: block;
+}
+
+/* Codigo normal */
+
+h1{
+	background-color: orangered;
+	text-align: center;
+	padding: 15px 20px;
+	font-family:'honey';
+    display: block;
+}
+
+h4{
+	font-family:'honey';
+	margin: 20px;
+    text-align: center;
+	display: block;
+	width: auto;
+	height: auto;
+}
+
+h3{
+	text-align: center;
+	font-family:'honey';
+    margin: 20px;
+    display: block;
+}
+
+h6{
+	font-family:'honey';
+	margin: 20px;
+    text-align: center;
+	display: block;
+	width: auto;
+	height: auto;
+}
+
+.tabla3 {
+    width: 245px;
+    background-color: rgb(255, 85, 0);
+	border: 10px;
+    color: rgb(0, 0, 0);
+    margin: 25px 130px;
+}
+
+.cuadro {
+	background-color: rgb(255, 255, 255);
+	width: 200px;
+	text-align: center;
+}
+
+th, td {
+	padding: 20px;
+	border: solid 1px;
+}
+
+thead {
+	background-color: rgb(0, 0, 0);
+	color: rgb(255, 255, 255);
+}
+
+.social a {
+	display: inline-block;
+	color: rgb(0, 0, 0);
+	background-color: rgb(255, 68, 0);
+	width: 10%;
+	margin: 20px;
+	text-align: center;
+	padding: 0px 0px;
+	font-family:'honey';
+	font-size: medium;
+	background: rgba(0, 0, 0, 0);
+}
+
+.logo {
+	width: 100px;
+	height: auto;
+	border-radius: 360px;
+	object-fit: cover;
+}
+
+iframe .mapa {
+	margin: 10px 30px;
+	display: flex;
+	flex-direction:center;
+}
+
+img { 
+    width: 300px;
+    height: auto;
+    margin: auto;
+    display: block;
+    border-radius: 30px;
+    box-shadow: 0px 0px 60px rgb(0, 0, 0);
+    object-fit: cover;
+    border: 2px solid rgb(0, 0, 0);}
+
+form {
+	text-align: center;
+	font-family:'honey';
+    display: block;
+}
+
+img.social {
+	background: rgba(255, 255, 255, 0);
+	box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);	
+	border: 2px solid rgba(0, 0, 0, 0);
+}
