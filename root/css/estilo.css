@@ -1,5 +1,3 @@
-/* Nota para el que me corrija: Nose como puedo acomodar las "tablas" para la vista de escritorio sin que queden mal para celular, cualquier ayudita viene bien, gracias */
-
 @font-face {
 	font-family:'honey';
 	src: url(../assets/font/milkyhoney.ttf);
@@ -182,3 +180,4 @@ img.social {
 	box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);	
 	border: 2px solid rgba(0, 0, 0, 0);
 }
+/* Hola /*
